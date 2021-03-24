@@ -5,8 +5,15 @@ $ git init
 
 基本的なワークフロー
 １．ファイルの変更をステージングエリアへ追加する
-$ git add
+$ git add (file name)
+
 ２．ローカルリポジトリにコミットする
 $ git commit
+$ i (insert: 'i')
+$ type comment
+$ type escape
+$ type ':wq' and Enter to finish
+
 ３．リモートリポジトリにプッシュする
-$ git push
+$ git remote add origin https://github.com/bluejohnnie55/intro_git.git
+$ git push -u origin master
