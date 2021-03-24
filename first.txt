@@ -16,11 +16,15 @@ $ type escape
 $ type ':wq' and Enter to finish
 
 ３．リモートリポジトリにプッシュする
-$ git remote add origin https://github.com/bluejohnnie55/intro_git.git
-$ git push -u origin master
+    # master: local repositories
+    # origin: remote repositories
+
+    $ git remote add origin https://github.com/bluejohnnie55/intro_git.git
+
+    $ git push -u origin master
 
 ４．ログの確認をする
-$ git log
+    $ git log
 
     色々なオプション
 
@@ -34,10 +38,10 @@ $ git log
     $ git log -n (int)
 
 ５．ステータスを確認する
-$ git status
+    $ git status
 
 ６．ファイルの削除をする
-$ git rm (file name)
+    $ git rm (file name)
 
 ７．ファイルの変更差分を表示する
     # difference
