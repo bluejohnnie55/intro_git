@@ -30,6 +30,9 @@ $ git log
     # ファイルの差分を表示する
     $ git log -p (file name)
 
+    # 表示するログ数を指定する
+    $ git log -n (int)
+
 ５．ステータスを確認する
 $ git status
 
