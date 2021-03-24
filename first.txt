@@ -8,7 +8,7 @@ $ git init
 $ git add (file name)
 
 ２．ローカルリポジトリにコミットする
-$ git commit
+$ git commit -v　（'-v'をつけると変更箇所が確認できる）
 $ i (insert: 'i')
 $ type comment
 $ type escape
@@ -17,3 +17,9 @@ $ type ':wq' and Enter to finish
 ３．リモートリポジトリにプッシュする
 $ git remote add origin https://github.com/bluejohnnie55/intro_git.git
 $ git push -u origin master
+
+４．ログの確認をする
+$ git log
+
+５．ステータスを確認する
+$ git status
