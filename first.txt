@@ -6,6 +6,7 @@ $ git init
 基本的なワークフロー
 １．ファイルの変更をステージングエリアへ追加する
 $ git add (file name)
+$ git add . ('.' means 'all files')
 
 ２．ローカルリポジトリにコミットする
 $ git commit -v　（'-v'をつけると変更箇所が確認できる）
@@ -23,3 +24,6 @@ $ git log
 
 ５．ステータスを確認する
 $ git status
+
+６．ファイルの削除をする
+$ git rm (file name)
